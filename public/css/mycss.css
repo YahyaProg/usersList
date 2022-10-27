@@ -1,0 +1,116 @@
+
+.form-container{
+    border-radius: 15px ;
+    background-color:#f8f6f6 ;
+    width: 65% ;
+    margin: 50px auto ;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px ;
+}
+.form-field{
+   margin-bottom:10px ;
+}
+.form-field-container{
+    margin: 0 auto;
+    width: 95%;
+
+}
+.form-field label{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.field-container{
+    width: 100%;
+}
+.field-container input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px 00;
+}
+.field-container{
+    border: 1px solid #8f8d8d;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.errormessages{
+    color: #3E82F7;
+    font-size: 12px;
+}
+.title-register{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.title-register span{
+    font-size: 30px;
+    color: crimson;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.field-number{
+    direction: ltr;
+    display: flex;
+}
+.field-number input{
+    margin-left: 10px;
+    height: 20px;
+}
+.field-number .svg{
+font-size: 40px;
+}
+
+.radio-buttons-container{
+    width: 95%;
+    margin: 10px auto 0 auto;
+}
+.radio-buttons-container label{
+    font-size: 14px;
+    color: #979393;
+    margin-left: 15px;
+}
+.radio-buttons-container span{
+    margin: 0 5px 0 15px;
+    color: #3E82F7;
+}
+.form-select-field{
+    margin-top: 15px;
+}
+.select-field{
+    width: 102%;
+    padding: 15px 0 15px 30px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.select-field option{
+    font-size: 11px;
+    color: #8f8d8d;
+    font-family: "vazir";
+
+}
+.select-field{
+    font-size: 11px;
+    color: #8f8d8d;
+    font-family: "vazir";
+}
+.form-field-container{
+    font-size: 13px;
+}
+.register-btn{
+    padding: 20px 20px;
+    background-color: #3E82F7;
+    color: aliceblue;
+    width: 50%;
+    cursor: pointer;
+    margin: 20px auto;
+    font-size: 23px;
+    border-radius: 6px;
+}
+.r-btn{
+    display: flex;
+    justify-content: center;
+}

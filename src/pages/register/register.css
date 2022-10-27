@@ -1,0 +1,165 @@
+.form-container {
+  border-radius: 15px;
+  background-color: #0a3653;
+  width: 55%;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.title-register h5 {
+  color: rgb(247, 247, 247);
+  margin: 10px 0;
+}
+.form-field {
+  margin-bottom: 20px;
+  text-align: start;
+}
+.form-field-container {
+  margin: 0 auto;
+  width: 95%;
+  font-size: 13px;
+  text-align: start;
+  margin-bottom: 10px !important;
+}
+.form-field-container label {
+  font-size: 14px;
+  color: #fff;
+}
+.form-field-container .select-field {
+  background-color: transparent !important;
+}
+.form-field-container .select-field option {
+  font-size: 14px !important;
+  background-color: transparent;
+}
+.form-field label {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.field-container {
+  width: 100%;
+}
+.field-container input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  padding: 10px 0;
+  color: #fff;
+}
+.field-container {
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 3px solid #ffffff;
+}
+.errormessages {
+  color: crimson;
+  font-size: 14px;
+  margin-bottom: 5px 0;
+}
+.title-register {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #ffff;
+}
+.title-register span {
+  font-size: 30px;
+  color: crimson;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.field-number {
+  direction: ltr;
+  display: flex;
+  align-items: center;
+  color: #ffff;
+}
+.field-number input {
+  margin-left: 10px;
+  padding: 10px 0;
+  color: #fff;
+}
+.field-number .svg {
+  font-size: 40px;
+}
+
+.radio-buttons-container {
+  width: 95%;
+  margin: 10px auto 0 auto;
+  direction: rtl;
+  text-align: start;
+}
+.radio-buttons-container label {
+  font-size: 14px;
+  color: #979393;
+  margin-left: 15px;
+}
+.radio-buttons-container span {
+  margin: 0 5px 0 15px;
+  color: #3e82f7;
+}
+.form-select-field {
+  margin-top: 15px;
+}
+.select-field {
+  width: 100%;
+  padding: 15px 0 15px 30px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.select-field option {
+  font-size: 11px;
+  color: #8f8d8d;
+  font-family: "vazir";
+}
+.select-field {
+  font-size: 11px;
+  color: #8f8d8d;
+  font-family: "vazir";
+}
+.field-container age {
+  width: 10% !important;
+}
+.register-btn {
+  padding: 20px 20px;
+  background-color: crimson;
+  color: aliceblue;
+  width: 50%;
+  cursor: pointer;
+  margin: 20px auto;
+  font-size: 23px;
+  border-radius: 10px;
+}
+.r-btn {
+  display: flex;
+  justify-content: center;
+}
+.registerError p {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+.backLogin p {
+  text-align: center;
+  color: #ffff;
+}
+.backLogin p span a {
+  color: red;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  .form-container {
+    width: 85%;
+  }
+}
+@media (max-width: 500px) {
+  .form-container {
+    width: 95%;
+  }
+}
